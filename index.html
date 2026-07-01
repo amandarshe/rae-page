@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 4rem;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #c4dbff;
+      color: #111;
+      text-align: left;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    p {
+      font-size: 1.1rem;
+      opacity: 0.7;
+      margin: 0 0 2rem;
+    }
+    p a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 1.1rem 2.5rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: #fff;
+      background: #4974b8;
+      border-radius: 9999px;
+      transition: transform 0.1s ease, opacity 0.15s ease;
+    }
+    a.button:hover { opacity: 0.85; }
+    a.button:active { transform: scale(0.97); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hi, I'm Rae</h1>
+    <p>I work at <a href="https://metr.org">METR</a></p>
+    <a class="button" href="https://savvycal.com/raeshe">Book a time</a>
+  </main>
+</body>
+</html>
